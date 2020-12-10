@@ -92,7 +92,7 @@ public class IlluminationEstimation : MonoBehaviour
     /// <summary>
     /// Called each time the Vuforia state is updated.
     /// </summary>
-    void OnTrackablesUpdated()
+    private void OnTrackablesUpdated()
     { 
         if ((pixelFormatSetted) && (canGetCameraImage))
         {
