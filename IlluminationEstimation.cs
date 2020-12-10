@@ -58,7 +58,7 @@ public class IlluminationEstimation : MonoBehaviour
         VuforiaARController.Instance.RegisterOnPauseCallback(OnPause);
     }
 
-    void OnDestroy()
+    private void OnDestroy()
     {
         KillAll();
     }
