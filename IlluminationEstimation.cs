@@ -40,7 +40,7 @@ public class IlluminationEstimation : MonoBehaviour
 
     private int frameCount = 0;
 
-    void Awake()
+    private void Awake()
     {
         Debug.Log("Hello");
     }
