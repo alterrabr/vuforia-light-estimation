@@ -40,7 +40,7 @@ public class IlluminationEstimation : MonoBehaviour
 
     private int frameCount = 0;
 
-    void Start()
+    private void Start()
     {
         // Get Light intensity
         initialIllumination = ambientLight.intensity;
