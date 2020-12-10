@@ -58,6 +58,11 @@ public class IlluminationEstimation : MonoBehaviour
         VuforiaARController.Instance.RegisterOnPauseCallback(OnPause);
     }
 
+    void OnDestroy()
+    {
+        KillAll();
+    }
+
     /// <summary>
     /// Called after Vuforia camera and trackers init.
     /// </summary>
