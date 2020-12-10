@@ -40,6 +40,11 @@ public class IlluminationEstimation : MonoBehaviour
 
     private int frameCount = 0;
 
+    void Awake()
+    {
+        Debug.Log("Hello");
+    }
+
     private void Start()
     {
         // Get Light intensity
